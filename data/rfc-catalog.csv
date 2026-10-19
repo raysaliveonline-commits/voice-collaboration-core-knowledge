@@ -1,0 +1,33 @@
+rfc,title,area,why_it_matters,official_url,notes
+3261,SIP: Session Initiation Protocol,SIP,Core methods transactions dialogs routing,https://www.rfc-editor.org/rfc/rfc3261,Core specification
+3262,Reliability of Provisional Responses in SIP,SIP,100rel and PRACK,https://www.rfc-editor.org/rfc/rfc3262,Read with call-flow evidence
+3263,Locating SIP Servers,SIP/DNS,NAPTR SRV A discovery,https://www.rfc-editor.org/rfc/rfc3263,DNS behavior depends on deployment
+3264,An Offer/Answer Model with SDP,SDP,Negotiation model,https://www.rfc-editor.org/rfc/rfc3264,Read with SDP offer/answer traces
+3265,SIP-Specific Event Notification,SIP events,Historical event framework,https://www.rfc-editor.org/rfc/rfc3265,Consult RFC 6665 for revised framework
+3311,The SIP UPDATE Method,SIP,Session modification,https://www.rfc-editor.org/rfc/rfc3311,Check early-dialog usage
+3325,Private Extensions to SIP for Asserted Identity,SIP identity,Trusted-domain identity,https://www.rfc-editor.org/rfc/rfc3325,Trust model is essential
+3326,The Reason Header Field for SIP,SIP,Reason and cause mapping,https://www.rfc-editor.org/rfc/rfc3326,Interworking context
+3372,Session Initiation Protocol for Telephones SIP-T,SIP/PSTN,Architecture for SIP/ISUP interworking,https://www.rfc-editor.org/rfc/rfc3372,Standards context
+3398,ISUP to SIP Mapping,SIP/PSTN,Gateway signaling mapping,https://www.rfc-editor.org/rfc/rfc3398,Not vendor configuration
+3515,The SIP Refer Method,SIP transfer,Transfer/referral signaling,https://www.rfc-editor.org/rfc/rfc3515,Check transfer interoperability
+3550,RTP: A Transport Protocol for Real-Time Applications,RTP,Media transport and RTCP,https://www.rfc-editor.org/rfc/rfc3550,Core RTP reference
+3551,RTP Profile for Audio and Video Conferences,RTP,Static payload types and AVP,https://www.rfc-editor.org/rfc/rfc3551,Confirm SDP profile
+3666,SIP PSTN Call Flows,SIP/PSTN,Example gateway call flows,https://www.rfc-editor.org/rfc/rfc3666,Read with RFC 3398
+3711,The Secure Real-time Transport Protocol,SRTP,Media encryption and integrity,https://www.rfc-editor.org/rfc/rfc3711,Does not encrypt SIP signaling
+3966,The tel URI for Telephone Numbers,Numbering,tel URI format,https://www.rfc-editor.org/rfc/rfc3966,Normalization context
+4028,Session Timers in SIP,SIP,Session refresh/expiration,https://www.rfc-editor.org/rfc/rfc4028,Inspect refresh direction and timers
+4733,RTP Payload for DTMF Digits Telephony Tones and Signals,DTMF,Telephone-event RTP,https://www.rfc-editor.org/rfc/rfc4733,Often historically called RFC 2833
+5761,Multiplexing RTP Data and Control Packets on a Single Port,RTP/RTCP,RTCP mux,https://www.rfc-editor.org/rfc/rfc5761,Check negotiated profile
+5764,DTLS Extension to Establish Keys for SRTP,WebRTC,DTLS-SRTP keying,https://www.rfc-editor.org/rfc/rfc5764,Not the same as SIP TLS
+5922,Domain Certificates in SIP,SIP TLS,Domain certificate identity,https://www.rfc-editor.org/rfc/rfc5922,Validate identity and chain
+6026,Correct Transaction Handling for 2xx Responses to SIP INVITE,SIP transactions,INVITE transaction behavior,https://www.rfc-editor.org/rfc/rfc6026,Consult errata and updates
+6665,SIP-Specific Event Notification,SIP events,Revised event framework,https://www.rfc-editor.org/rfc/rfc6665,Check package-specific extensions
+7587,RTP Payload Format for the Opus Speech and Audio Codec,Codec,Opus RTP mapping,https://www.rfc-editor.org/rfc/rfc7587,Read with RFC 6716
+8866,Session Description Protocol,SDP,Revised SDP specification,https://www.rfc-editor.org/rfc/rfc8866,Use current SDP source
+8996,Deprecating TLS 1.0 and TLS 1.1,TLS,Modern TLS policy context,https://www.rfc-editor.org/rfc/rfc8996,Production security guidance
+8445,Interactive Connectivity Establishment ICE,NAT traversal,Connectivity checks,https://www.rfc-editor.org/rfc/rfc8445,WebRTC/NAT context
+2782,A DNS RR for specifying the location of services DNS SRV,DNS,SRV records,https://www.rfc-editor.org/rfc/rfc2782,Check current DNS guidance
+3403,Dynamic Delegation Discovery System Part Three,DNS/NAPTR,NAPTR/DDDS framework,https://www.rfc-editor.org/rfc/rfc3403,Service discovery
+3856,A Presence Event Package for SIP,Presence,Presence subscriptions,https://www.rfc-editor.org/rfc/rfc3856,IM and presence
+3863,Presence Information Data Format PIDF,Presence,Presence XML data,https://www.rfc-editor.org/rfc/rfc3863,Read with event packages
+3903,SIP Extension for Event State Publication PUBLISH,Presence,Event state publication,https://www.rfc-editor.org/rfc/rfc3903,Package behavior matters

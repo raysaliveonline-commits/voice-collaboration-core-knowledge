@@ -1,0 +1,81 @@
+site_name: Voice Collaboration Core Knowledge
+site_description: Source-linked technical references and practical runbooks for enterprise voice, SIP, RTP, Cisco collaboration, SBC interoperability and Wireshark.
+site_url: https://raysaliveonline-commits.github.io/voice-collaboration-core-knowledge/
+repo_url: https://github.com/raysaliveonline-commits/voice-collaboration-core-knowledge
+repo_name: raysaliveonline-commits/voice-collaboration-core-knowledge
+edit_uri: edit/main/docs/
+copyright: "Original content licensed CC BY 4.0 unless stated otherwise. Third-party content remains under its owners' terms."
+theme:
+  name: material
+  language: en
+  logo: assets/brand-mark.svg
+  favicon: assets/brand-mark.svg
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.action.edit
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: teal
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: teal
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Inter
+    code: JetBrains Mono
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed:
+      alternate_style: true
+extra_css:
+  - assets/custom.css
+plugins:
+  - search
+nav:
+  - Home: index.md
+  - Standards:
+      - RFC catalog: standards/rfc-catalog.md
+  - Cisco & SBCs:
+      - Cisco CUBE IOS XE 17.6+: vendors/cisco-cube-ios-xe-17-6.md
+      - SBC and SIP training: vendors/sbc-training-map.md
+  - Packet analysis:
+      - Wireshark voice filters: wireshark/voice-display-filters.md
+      - SIP call analysis: troubleshooting/sip-call-analysis.md
+      - RTP and one-way audio: troubleshooting/rtp-one-way-audio.md
+  - Troubleshooting:
+      - TAC method: troubleshooting/tac-method.md
+  - Security: security/voice-security.md
+  - PSTN / TDM: pstn/voip-to-tdm.md
+  - Automation: automation/voice-automation.md
+  - Agent setup: agent/copilot-agent-addendum.md
+  - Glossary: glossary.md
+  - Source policy: source-policy.md

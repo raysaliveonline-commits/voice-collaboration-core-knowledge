@@ -1,5 +1,5 @@
 site_name: Voice Collaboration Core Knowledge
-site_description: Source-linked technical references and practical runbooks for enterprise voice, SIP, RTP, Cisco collaboration, SBC interoperability and Wireshark.
+site_description: A guided, scrollable engineering path through enterprise voice, SIP/RTP, Cisco collaboration, SBC interoperability and packet troubleshooting.
 site_url: https://raysaliveonline-commits.github.io/voice-collaboration-core-knowledge/
 repo_url: https://github.com/raysaliveonline-commits/voice-collaboration-core-knowledge
 repo_name: raysaliveonline-commits/voice-collaboration-core-knowledge
@@ -14,8 +14,6 @@ theme:
     - navigation.instant
     - navigation.instant.progress
     - navigation.tabs
-    - navigation.sections
-    - navigation.expand
     - navigation.top
     - navigation.footer
     - search.suggest
@@ -61,21 +59,19 @@ extra_css:
 plugins:
   - search
 nav:
-  - Home: index.md
-  - Standards:
-      - RFC catalog: standards/rfc-catalog.md
-  - Cisco & SBCs:
-      - Cisco CUBE IOS XE 17.6+: vendors/cisco-cube-ios-xe-17-6.md
-      - SBC and SIP training: vendors/sbc-training-map.md
-  - Packet analysis:
-      - Wireshark voice filters: wireshark/voice-display-filters.md
-      - SIP call analysis: troubleshooting/sip-call-analysis.md
+  - Start here: index.md
+  - Deep-dive reference:
+      - Protocol standards: standards/rfc-catalog.md
+      - Cisco CUBE: vendors/cisco-cube-ios-xe-17-6.md
+      - SBC learning map: vendors/sbc-training-map.md
+      - Wireshark filters: wireshark/voice-display-filters.md
+      - SIP packet analysis: troubleshooting/sip-call-analysis.md
       - RTP and one-way audio: troubleshooting/rtp-one-way-audio.md
-  - Troubleshooting:
-      - TAC method: troubleshooting/tac-method.md
-  - Security: security/voice-security.md
-  - PSTN / TDM: pstn/voip-to-tdm.md
-  - Automation: automation/voice-automation.md
-  - Agent setup: agent/copilot-agent-addendum.md
-  - Glossary: glossary.md
-  - Source policy: source-policy.md
+      - TAC troubleshooting: troubleshooting/tac-method.md
+      - Voice security: security/voice-security.md
+      - VoIP-to-TDM / PRI: pstn/voip-to-tdm.md
+      - Voice automation: automation/voice-automation.md
+  - About:
+      - Glossary: glossary.md
+      - Source and licensing policy: source-policy.md
+      - Copilot agent guidance: agent/copilot-agent-addendum.md
